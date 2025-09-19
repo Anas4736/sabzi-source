@@ -1,71 +1,108 @@
-# Welcome to your Lovable project
+# Street Vendor Raw Material Sourcing Platform
 
-## Project info
+ ![Project Banner](./assets/screenshot.png)
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## Table of Contents
 
-**Use Lovable**
+- [About](#about)  
+- [Problem Statement](#problem-statement)  
+- [Solution](#solution)  
+- [Features](#features)  
+- [How It Works](#how-it-works)  
+- [Tech Stack](#tech-stack)  
+- [Setup & Installation](#setup--installation)  
+- [Usage](#usage)  
+- [Screenshots](#screenshots)  
+- [Future Improvements](#future-improvements)  
+- [Team](#team)  
+- [License](#license)
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/9290d91e-42ab-48aa-be8e-0912c88ff478) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## About
 
-**Use your preferred IDE**
+This project is a web application designed to help street food vendors in India source raw materials from trusted suppliers at affordable rates. It bridges the gap between small vendors and reliable vendors, ensuring quality, transparency, and cost-effectiveness.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## Problem Statement
 
-Follow these steps:
+Street food vendors in India often face challenges such as:
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+- Difficulty in finding suppliers who are both **reliable** and **inexpensive**.  
+- Lack of trust in vendor quality, leading to risk in food safety.  
+- Inconsistent supply, fluctuating prices, and lack of transparency.  
+- Time and cost lost in travel or dealing with middlemen.
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+---
 
-# Step 3: Install the necessary dependencies.
-npm i
+## Solution
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+Our platform allows vendors to:
+
+- Browse and connect with **trusted suppliers** of raw materials.  
+- Compare prices from different vendors.  
+- Browse product catalogs with quality indicators (ratings, reviews, etc.).  
+- Place orders online and arrange delivery or pickup.
+
+---
+
+## Features
+
+- Vendor dashboard: Suppliers can list their raw materials, set prices, update inventory.  
+- Vendor verification system: Ensures suppliers are authenticated/trusted.  
+- Search & filter: Vendors can filter raw materials by price, location, quality rating.  
+- Order management: Vendors can place, view, track orders.  
+- Notification system: For new product listings, order status updates, stock shortages.  
+- User-friendly UI/UX optimized for mobile and low-bandwidth usage.
+
+---
+
+## How It Works
+
+1. **Supplier registration**: Raw material suppliers register, provide verification details, upload product catalog.  
+2. **Vendor browsing**: Street food vendors register/log in, browse through product listings.  
+3. **Filtering & comparison**: Vendors compare multiple supplier listings based on price, quality, and distance.  
+4. **Placing orders**: Vendors place orders, choose delivery or pickup options.  
+5. **Order tracking & feedback**: Vendors track order status; they can leave feedback to maintain trust.
+
+---
+
+## Tech Stack
+
+| Component       | Technology / Tool         |
+|------------------|-----------------------------|
+| Frontend         | React / Vue / Angular / Svelte (whichever you used) |
+| Backend          | Node.js / Express / Django / Flask / etc. |
+| Database         | PostgreSQL / MySQL / MongoDB / etc. |
+| Authentication   | JWT / OAuth / etc. |
+| Hosting / Deployment | AWS / Heroku / Netlify / Vercel / etc. |
+| Notifications    | Email / SMS / Push / etc. |
+
+---
+
+## Setup & Installation
+
+> The steps below assume you are running this in a development environment.
+
+```bash
+# Clone the repo
+git clone <your-repo-url>
+cd <your-project-directory>
+
+# Install dependencies
+npm install
+
+# Configuration
+# Create `.env` file with:
+#   DATABASE_URL=...
+#   JWT_SECRET=...
+#   PAYMENT_API_KEY=...
+#   etc.
+
+# Run in development
+cd backen
 npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/9290d91e-42ab-48aa-be8e-0912c88ff478) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+npm run start
