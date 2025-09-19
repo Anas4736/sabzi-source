@@ -1,23 +1,20 @@
 # Street Vendor Raw Material Sourcing Platform
 
- ![Project Banner](./assets/screenshot.png)
+ ![Project Banner](https://imgs.search.brave.com/pedEYT8sKPl3ZAh-8hi1IXV9yVQKHqzulQvZbtb6xYs/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzA2LzU0LzE3LzY3/LzM2MF9GXzY1NDE3/Njc5NF93eENrMFZL/dEFBRUNBRFRaUFI4/QnlvZ1VZaTdlV0Mx/Ny5qcGc)
 
 ---
 
 ## Table of Contents
 
-- [About](#about)  
-- [Problem Statement](#problem-statement)  
-- [Solution](#solution)  
-- [Features](#features)  
-- [How It Works](#how-it-works)  
-- [Tech Stack](#tech-stack)  
-- [Setup & Installation](#setup--installation)  
-- [Usage](#usage)  
-- [Screenshots](#screenshots)  
-- [Future Improvements](#future-improvements)  
-- [Team](#team)  
-- [License](#license)
+- About
+- Problem Statement  
+- Solution
+- Features 
+- How It Works
+- Usage
+- Future Improvements 
+- Team  
+- Setup & Installation  
 
 ---
 
@@ -70,16 +67,33 @@ Our platform allows vendors to:
 
 ---
 
-## Tech Stack
+## Usage
 
-| Component       | Technology / Tool         |
-|------------------|-----------------------------|
-| Frontend         | React / Vue / Angular / Svelte (whichever you used) |
-| Backend          | Node.js / Express / Django / Flask / etc. |
-| Database         | PostgreSQL / MySQL / MongoDB / etc. |
-| Authentication   | JWT / OAuth / etc. |
-| Hosting / Deployment | AWS / Heroku / Netlify / Vercel / etc. |
-| Notifications    | Email / SMS / Push / etc. |
+- Sign up as a supplier → Set up your profile and product listings.  
+- Sign up as a vendor / buyer → Browse raw materials.  
+- Use search / filters to narrow down options.  
+- Add products to cart, place order.  
+- Monitor order status; give feedback to suppliers.
+
+---
+
+## Future Improvements
+
+1. Add real-time chat between vendors and suppliers.  
+2. Integrated payment gateway for online payments.  
+3. Route-based delivery suggestions and cost estimates.  
+4. Machine learning based recommendation of suppliers based on vendor preferences.  
+5. Multilingual support (local Indian languages)
+6. Offline mode or lite version for low connectivity areas.
+
+---
+
+
+## Team
+
+1. Mohd Anas – Role (Frontend / Backend / Database)  
+2. Dev Rastogi – Role (Frontend / Design) 
+3. Salik Siddiqui – Role (Frontend / Design)
 
 ---
 
@@ -96,6 +110,7 @@ cd <your-project-directory>
 npm install
 
 # Configuration
+
 # Create `.env` file with:
 #   DATABASE_URL=...
 #   JWT_SECRET=...
@@ -103,6 +118,7 @@ npm install
 #   etc.
 
 # Run in development
-cd backen
 npm run dev
 npm run start
+
+---
