@@ -71,6 +71,7 @@ const BreadcrumbPage = React.forwardRef<
   />
 ))
 BreadcrumbPage.displayName = "BreadcrumbPage"
+<div></div>
 
 const BreadcrumbSeparator = ({
   children,
