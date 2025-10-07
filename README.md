@@ -128,7 +128,7 @@ npm start
 
 🧑‍💻 Team Members
 
-| 👤 Name            | 💼 Role                       |
+| 👤 Name            | 💼 Role                      |
 | :----------------- | :---------------------------- |
 |   Mohd Anas        | Frontend / Backend / Database |
 |   Dev Rastogi      | Frontend Developer            |
