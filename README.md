@@ -1,4 +1,4 @@
-# 🛒 Street Vendor Raw Material Sourcing Platform         
+# 🛒 Street Vendor Raw Material Sourcing Platform          
 
 <p align="center">
   <img src="https://imgs.search.brave.com/pedEYT8sKPl3ZAh-8hi1IXV9yVQKHqzulQvZbtb6xYs/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzA2LzU0LzE3LzY3/LzM2MF9GXzY1NDE3/Njc5NF93eENrMFZL/dEFBRUNBRFRaUFI4/QnlvZ1VZaTdlV0Mx/Ny5qcGc" 
